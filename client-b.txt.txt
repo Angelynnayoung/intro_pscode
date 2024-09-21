@@ -1,0 +1,26 @@
+# Client Task B #
+# Add your pseudocode to this file below this line: #
+# ------------------------------------------------- #
+
+Find the spot
+
+Start
+
+function move(start, direction, steps):
+    position = start
+
+for each step from 1 to steps:
+    if direction == "north":
+       position.row = position.row -1
+    else if direction == "south":
+       position.row = position.row + 1
+    else if direction == "east":
+       position.col = position.col + 1
+    else if direction == "west":
+       position.col = position.col - 1
+return position
+    if location found
+return "You have reached your destination."
+end loop
+
+

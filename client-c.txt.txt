@@ -1,0 +1,14 @@
+# Client Task C #
+# Add your pseudocode to this file below this line: #
+# ------------------------------------------------- #
+
+Increment numbers from 2 to 50 by 2s
+
+Start
+
+function printEvenNumbers
+    for number from 2 to 50 with an increment of 2:
+print (number)
+
+End
+

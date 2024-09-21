@@ -1,0 +1,29 @@
+# Client Task A #
+# Add your pseudocode to this file below this line: #
+# ------------------------------------------------- 
+
+Random number guessing game
+
+Start
+
+when button onclick declare guess, Randomnum as variable
+
+set guess = 0
+set Randomnum = Random number between 1 - 10
+
+repeat loop until guess = Randomnum
+
+Ask user: "Guess a number between 1 and 10."
+set guess = user answer
+
+if guess = Randomnum then
+    output: "You guessed it!"
+else
+if guess > Randomnum then
+    output: "Too high. Try again."
+else
+    output: "Too low. Try again."
+end if
+end if
+end loop
+
